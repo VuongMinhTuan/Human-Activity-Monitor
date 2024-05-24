@@ -1,0 +1,46 @@
+# Configuration for detection
+
+
+video:
+  # Path to video
+  path: ???
+
+  # Video speed multiplying
+  speed: 1
+
+  # Frame delay (millisecond)
+  delay: 1
+
+  # Process 1 every n frame
+  subsampling: 10
+
+  # Wait for processed frame
+  sync: true
+
+  # Video resolution
+  resolution: null
+
+  # Display video progress
+  progress_bar: true
+
+  # Display video FPS
+  show_fps:
+    # Increasing the value makes the output more stable but the response is slower
+    smoothness: 30
+
+    # FPS display potition
+    position: [20, 40]
+
+  # Record video
+  record:
+    # Save destination
+    path: records
+
+    # Save name
+    name: output
+
+    # Custom fps (null for auto)
+    fps: null
+
+    # Output resolution (null for auto)
+    resolution: null

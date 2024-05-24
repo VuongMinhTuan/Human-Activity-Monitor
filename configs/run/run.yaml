@@ -1,0 +1,21 @@
+# Configuration for run.py
+
+
+# Device for computing ('cpu' or 'cuda' or 'auto')
+device: auto
+
+
+# ------------ DO NOT CHANGE IN THIS BLOCK ------------
+# Instead configure them directly in `their_name.yaml`
+# Load other configuration
+defaults:
+  - _self_
+  - video
+  - backbone
+  - detector
+  - classifier
+  - features:
+    - human_count
+    - heatmap
+    - track_box
+# -----------------------------------------------------

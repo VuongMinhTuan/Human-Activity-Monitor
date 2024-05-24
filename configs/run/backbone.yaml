@@ -1,0 +1,20 @@
+# Configuration for backbone process
+
+
+backbone:
+  # Run process on a separate thread
+  thread: true
+
+  # Apply the result to a mask instead
+  mask: true
+
+  # Allow process to run on background
+  background: false
+
+  # Save process result
+  save:
+    # Save folder
+    path: records/
+
+    # Save frequency (second)
+    interval: 1

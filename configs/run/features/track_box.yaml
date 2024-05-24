@@ -1,0 +1,41 @@
+# Configuration for track box
+
+
+track_box:
+  # Default configuration
+  default:
+    # Text setting
+    text:
+      # Text position
+      position: [ 10, 50 ]
+      # Text font scaling
+      font_scale: 2
+      # Text thickness
+      thickness: 3
+
+    # Box setting
+    box:
+      # Box thickness
+      thickness: 2
+
+  # Save output
+  save: true
+
+  # Box areas to track
+  boxes:
+    # Box name
+    - name: door
+      # Top left point
+      top_left: [ 222, 100 ]
+      # Bottom right point
+      bottom_right: [ 390, 500 ]
+      # Box and text color (null for random)
+      color: [ 0, 0, 255 ]
+      # Increasing the value makes the output more stable but the response is slower
+      smoothness: 1
+
+    - name: top table
+      top_left: [ 450, 30 ]
+      bottom_right: [ 1170, 250 ]
+      color: [ 225, 0, 0 ]
+      smoothness: 5

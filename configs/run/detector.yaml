@@ -1,0 +1,49 @@
+# Configuration for detection
+
+
+detector:
+  # Model confuration
+  model:
+    # Model weight path
+    weight: weights/yolov8m.pt
+
+    # Enable tracking
+    track: false
+
+    # Confidence threshold for detection
+    conf: 0.2
+
+    # Intersection over Union
+    iou: 0.4
+
+    # Input size for the model
+    size: 640
+
+    # Use half precision (float16) for better inference
+    half: true
+
+    # Fuse model layer
+    fuse: true
+
+    # Using onnx model
+    onnx: false
+
+    # Use TorchDynamo, the latest method to speed up PyTorch code
+    optimize: true
+
+    # Backend to be used for model optimization
+    backend: null
+
+  # Draw output
+  show:
+    # Detection confidence score
+    score: false
+
+    # Show dynamic color based on score
+    dynamic_color: true
+
+    # Box surrounding
+    box: true
+
+    # Central dot
+    dot: false
