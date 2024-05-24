@@ -46,7 +46,7 @@ python3 src/run.py video.path=data/video/abc.mp4 video.speed=2 detector.model.co
 ## Train
 ### Setup
 1. Dataset must be put in the [data](https://github.com/HT0710/Human-Activity-Recognition/tree/main/data) folder
-2. Configure the options in [configs/data](https://github.com/VuongMinhTuan/Human-Activity-Monitor/tree/main/data) folder
+2. Configure the options in [configs/data](https://github.com/VuongMinhTuan/Human-Activity-Monitor/tree/main/configs/data) folder
 3. Then using the `video_preparation.py` or `image_preparation.py` file in the [tools](https://github.com/VuongMinhTuan/Human-Activity-Monitor/tree/main/tools) folder to generate the trainable data
 ```bash
 # If using image
